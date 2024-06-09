@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg-image {
+    background-image: url('../images/Aitab_block.png');
+    min-height: 100%;
+    background-position: center;
+    position: relative;
+    
+}
+
+#popup-modal {
+    background-color: rgba(75, 69, 69, 0.5); /* poolläbipaistev tumehall */
+}
+
+#popup-modal-content {
+    background-color: #796c6c; /* tumedam hall */
+    color: white; /* valge tekst */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+}
+
+#popup-modal-content h2 {
+    font-size: 2rem; /* suurem font */
+}
+
+#popup-modal-content img {
+    margin-top: 10px; /* pildi pealtükkimiseks */
+    max-width: 100%;
+    height: auto;
+}
+
+#popup-modal-content button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
